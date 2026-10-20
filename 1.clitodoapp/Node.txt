@@ -1,0 +1,19 @@
+// 1. readline kya hai?
+// readline Node.js ka built-in module hai. Iski help se hum terminal/command prompt mein user 
+// se questions pooch sakte hain aur uska answer le sakte hain.
+
+
+
+Code	Meaning
+require("readline")	Readline module ko import karta hai.
+createInterface()	Input aur output ka interface banata hai.
+process.stdin	Terminal se input leta hai.
+process.stdout	Terminal par output dikhata hai.
+rl.question()	User se question poochhta hai.
+(name) => {}	User ka diya hua answer name mein store hota hai.
+rl.close()	Readline interface ko close karta hai.
+Important: rl.close() lagana zaroori hai, taaki input lene ke baad interface band ho sake.
+
+
+
+//!  PowerShell mein executable ka path quotes mein ho, toh usse run karne ke liye & lagana hota hai.
